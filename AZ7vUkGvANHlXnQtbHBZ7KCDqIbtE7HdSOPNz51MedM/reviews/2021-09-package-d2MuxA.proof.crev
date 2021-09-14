@@ -1,0 +1,26 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-09-14T21:11:04.465998403+03:00"
+from:
+  id-type: crev
+  id: AZ7vUkGvANHlXnQtbHBZ7KCDqIbtE7HdSOPNz51MedM
+  url: "https://github.com/vlad20012/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: saturating
+  version: 0.1.0
+  revision: dd94843754b2f42e21a53513c86a2fe8c823d5ab
+  digest: yIbKIzOuG1lC-gTIiWCcRPRSdVoh8N7Ze32FehYghYs
+review:
+  thoroughness: medium
+  understanding: high
+  rating: positive
+comment: |-
+  It's a pretty simple library, the code is very similar to `std::num::Wrapping`,
+  there's zero unsafe code.
+  There's a lack of tests, unfortunately
+----- SIGN CREV PROOF -----
+d2HCB_2Pfgg8gFZB4VxrrH3citka7L_ZpLKqTgzpTj9fcJgNR6qz0GVh-WmphmvDGFcwteM7e5BxzAtq3hpyAg
+----- END CREV PROOF -----
+
