@@ -24,3 +24,34 @@ comment: |-
 d2HCB_2Pfgg8gFZB4VxrrH3citka7L_ZpLKqTgzpTj9fcJgNR6qz0GVh-WmphmvDGFcwteM7e5BxzAtq3hpyAg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-09-15T10:43:48.443481959+03:00"
+from:
+  id-type: crev
+  id: AZ7vUkGvANHlXnQtbHBZ7KCDqIbtE7HdSOPNz51MedM
+  url: "https://github.com/vlad20012/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: atty
+  version: 0.2.14
+  revision: 7b5df17888997d57c2c1c8f91da1db5691f49953
+  digest: WJaqS5xu6ORo2px2Rku1ynYYN4TuCdxeS8LR68ngyw4
+package-diff-base:
+  source: "https://crates.io"
+  name: atty
+  version: 0.2.13
+  revision: 0e6ef0422750c8d24f3e34695758684f48b7a27e
+  digest: W36qEbMrthMZf6ZfK6t7oCXPyKvmTY5BLJtD0gs54ow
+review:
+  thoroughness: medium
+  understanding: medium
+  rating: positive
+comment: |-
+  This version only adds support for `target_os = "hermit"` via `hermit_abi` crate.
+  The rest of the code in the crate has not been changed.
+----- SIGN CREV PROOF -----
+0CiPYy7QdqSXWcXCdQhtxZ3mO2d4D6e2VUMJpAJSPt2vJfy0IxiyY5Y1Ug0rqWn1m6xitAVTuFN-yBLJQVdBDw
+----- END CREV PROOF -----
+
