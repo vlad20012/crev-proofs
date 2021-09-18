@@ -55,3 +55,33 @@ comment: |-
 0CiPYy7QdqSXWcXCdQhtxZ3mO2d4D6e2VUMJpAJSPt2vJfy0IxiyY5Y1Ug0rqWn1m6xitAVTuFN-yBLJQVdBDw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-09-18T20:18:49.217960504+03:00"
+from:
+  id-type: crev
+  id: AZ7vUkGvANHlXnQtbHBZ7KCDqIbtE7HdSOPNz51MedM
+  url: "https://github.com/vlad20012/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: sha2
+  version: 0.9.8
+  revision: a7431da030b14ff144a30638c7cd3604befc1512
+  digest: NLD1vyHO5WT9x1RiyFaLbz9-Ybz5U7xMyT9UHf1DuxE
+review:
+  thoroughness: none
+  understanding: none
+  rating: positive
+advisories:
+  - ids:
+      - RUSTSEC-2021-0100
+    severity: high
+    range: minor
+    comment: "The v0.9.7 release of the sha2 crate introduced a new AVX2-accelerated backend \nwhich was automatically enabled for all x86/x86_64 CPUs where AVX2 support was \nautodetected at runtime.\n\nThis backend was buggy and would miscompute results for long messages (i.e. \nmessages spanning multiple SHA blocks).\n\nThe crate has since been yanked, but any users who upgraded to v0.9.7 should \nimmediately upgrade to v0.9.8 and recompute any hashes which were previously \ncomputed by v0.9.7."
+comment: |-
+  This version fixes a major bug introduced in the previous version 0.9.7
+----- SIGN CREV PROOF -----
+ZrwW3vXwQvoPYrV4zCBeK2vc8qrSHj9gvXXXXKzuTwY50Hcyf2XMKGsz7eJLd3xwynAOm170HnxgaWJHXVwMDg
+----- END CREV PROOF -----
+
