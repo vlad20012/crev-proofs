@@ -17,3 +17,22 @@ comment: |-
 AyOufz_WaPqH6isu4vUmoLmiYKozVaiYOK25mt-TrgvUPn-JwJjxBOk-Ha4qEt4l08UiNcN1BdVudovbRpedAA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: trust
+version: -1
+date: "2021-09-22T12:48:47.297787958+03:00"
+from:
+  id-type: crev
+  id: AZ7vUkGvANHlXnQtbHBZ7KCDqIbtE7HdSOPNz51MedM
+  url: "https://github.com/vlad20012/crev-proofs"
+ids:
+  - id-type: crev
+    id: LkfCl08m1q4xcjAQ0KV-t0uTsxu61my6IfzF8O5IJ-8
+    url: "https://github.com/ozkriff/crev-proofs"
+trust: medium
+comment: |-
+  My colleague
+----- SIGN CREV PROOF -----
+OTi_dYsB0VjQxwxT1tkiBidnjsEeAiAG3tyydtEMjOctGux3GIRTICk5rhrSx0zhqsVjjCLMd4Vw8pizrg_jCg
+----- END CREV PROOF -----
+
